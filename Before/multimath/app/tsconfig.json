@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+      "removeComments": true,
+      "outFile": "../js/app.js"
+     
+    },
+    // Line that tells the compiler to include all the ts files , if replaced by "files" , we have to mentions all the files to be included
+    "files" : [
+        "./app.ts"
+    ]
+  }
