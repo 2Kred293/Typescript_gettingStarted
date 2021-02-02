@@ -1,4 +1,4 @@
-interface result {
+export interface result {
     playerName : string;
     score : number;
     problemCount: number ;
